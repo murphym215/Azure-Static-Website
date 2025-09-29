@@ -25,9 +25,11 @@ body {
 }
 
 .logo-placeholder {
-  width: 60px;
-  height: 60px;
-  background-color: white;
+  width: 120px;
+  height: 120px;
+  background-color: transparent;  
+  border-radius: 50%;
+  object-fit: cover;
   margin-right: 10px;
 }
 
