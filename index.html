@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My First Webpage</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farm Credit Administration</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<h1>Welcome to My Website</h1>
-<p>This is a simple HTML page.</p>
+
+  <header class="top-banner" role="banner">
+    <div class="top-row">
+      <div class="logo">
+        <div class="logo-placeholder" aria-hidden="true"></div>
+        <h1>Farm Credit Administration</h1>
+      </div>
+      <nav class="top-links" aria-label="Top navigation">
+        <a href="#">Lender Locator</a><span aria-hidden="true">|</span>
+        <a href="#">Careers</a><span aria-hidden="true">|</span>
+        <a href="#">Contact Us</a>
+      </nav>
+    </div>
+
+    <div class="search-container" role="search">
+      <label for="search-box" class="visually-hidden">Search</label>
+      <input id="search-box" type="text" placeholder="Search..." />
+      <button>Search</button>
+    </div>
+
+    <div class="dropdown-container">
+      <label for="dropdown" class="visually-hidden">Select an option</label>
+      <select id="dropdown">
+        <option>Select an option</option>
+        <option>Option 1</option>
+        <option>Option 2</option>
+      </select>
+      <button>Go</button>
+    </div>
+  </header>
+
+  <nav class="nav-section" aria-label="Main navigation">
+    <a href="#">Laws & Regulations</a>
+    <a href="#">Bank & Association Oversight</a>
+    <a href="#">Farmer Mac Oversight</a>
+    <a href="#">About Us</a>
+    <a href="#">Newsroom</a>
+    <a href="#">Topic Index</a>
+  </nav>
+
+  <footer role="contentinfo">
+    &copy; 2025 Farm Credit Administration. All rights reserved.
+  </footer>
+
 </body>
 </html>
