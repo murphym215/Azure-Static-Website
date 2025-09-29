@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -32,10 +33,9 @@ body {
   align-items: center;
 }
 
-.logo-placeholder {
+.logo-img {
   width: 60px;
   height: 60px;
-  background-color: white;
   margin-right: 10px;
 }
 
