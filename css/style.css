@@ -40,7 +40,7 @@ body {
 }
 
 .top-links {
-  position: absolute
+  position: absolute;
   display: flex;
   align-items: center;
   gap: 10px;
